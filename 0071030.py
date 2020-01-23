@@ -1,16 +1,10 @@
-"""
-Gizem Tanriver
-Student ID: 0071030
-Homework 5
-"""
-
 import numpy as np
 import pandas as pd
 import math
 import matplotlib.pyplot as plt
 
 # Importing the dataset
-dataset = pd.read_csv('hw05/hw05_data_set.csv')
+dataset = pd.read_csv('dataset.csv')
 
 # Splitting training and test sets
 X_train=dataset.iloc[0:150, 0].values
